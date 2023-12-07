@@ -86,7 +86,7 @@ const NavBar = () => {
                 <hr className="gr"/>
             </li>
             <li className="menu-btn-main">
-                <Link className='link' href='/HotDeals'>Hot Deals</Link>
+               Hot Deals
                 <hr className="gr"/>
             </li>
             <li className="menu-btn-main">
@@ -94,7 +94,7 @@ const NavBar = () => {
                 <hr className="gr"/>
             </li>
             <li className="menu-btn-main">
-            <Link className='link' href='/blogs' passHref>Blogs</Link>
+            <Link className='link' href='/blogs'>Blogs</Link>
                 <hr className="gr"/>
             </li>
             <li className="menu-btn-main">
