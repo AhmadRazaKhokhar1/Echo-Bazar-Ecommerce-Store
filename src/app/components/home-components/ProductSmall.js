@@ -1,4 +1,4 @@
-'use-client';
+
 import Image from '../../../../node_modules/next/image';
 import { useContext, createContext, useEffect, useState } from 'react';
 
