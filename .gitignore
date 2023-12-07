@@ -35,4 +35,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 #env
-.env
+temp_auto_push.bat
+temp_interactive_push.bat
+branch_structure.json
+config.bat
