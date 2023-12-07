@@ -1,0 +1,10 @@
+
+{
+  "compilerOptions": {
+    "baseUrl": "./*.js",
+    "target": "ES6",
+    "paths": {
+      "@/*": ["pages/*"]
+    }
+  }
+}
