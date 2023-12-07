@@ -1,10 +1,4 @@
-@import 'tailwindcss/base';
 
-/* Import the component styles */
-@import 'tailwindcss/components';
-
-/* Import the utility styles */
-@import 'tailwindcss/utilities';
 @import 'bootstrap/dist/css/bootstrap.min.css';
 *{
   margin: 0;
