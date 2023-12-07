@@ -5,7 +5,7 @@ function Slider() {
     <>
     <Carousel  controls={false}>
       <Carousel.Item>
-       <div className="flex-box-bg">
+       <div className="d-flex  bgt">
         <Image className='bg-image' alt='background-image-fruites-and-vegetables' src={'/images/bg-fruite-image.png'} width={800} height={600}  />
         <div className="content-bg">
             <h1 className="title-bg">

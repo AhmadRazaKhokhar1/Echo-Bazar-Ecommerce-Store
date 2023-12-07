@@ -2,7 +2,7 @@
   
     .nav-bar{
         width:100vw;
-        font-size: 7px;
+        font-size:10px;
     }
     .upperContainer{
         background: rgb(31, 31, 31);
@@ -14,22 +14,23 @@
         align-items: center;
         margin: 0;
         padding:0px 5px;
-        font-size: 7px;
+        font-size:8px;
       }
       .middleContainer{
         width:100vw;
-        justify-content: space-around;
+        justify-content: space-between;
+        align-items: center;
         height: 45px;
       }
       .lowerContainer{
         width:100vw;
         height: 45px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
       }
       #currency{
-        font-size: 7px;
+        font-size:10px;
         color: #B3B3B3;
         padding: 5px;
 
@@ -56,8 +57,8 @@
         width: 10px;
       }
       .brand-logo{
-        width: 80px;
-        height: 20px;
+        width: 60px;
+        height: 15px;
         margin: auto 5px;
       }
       .middle-left{
@@ -73,69 +74,55 @@
         height: 15px;
       }
       .head{
-        font-size: 7px;
+        font-size:10px;
       }
       .totalAmount{
-        font-size: 7px;
+        font-size:10px;
 
       }
     
       .middle-middle{
         display: flex;
         align-items: center;
-        justify-content: left;
-        flex: 1;
+        justify-content: center;
+        flex: 2;
       }
       .search-input{
         width: 120px;
-        height: 15px;
-        font-size: 8px;
+        height: 24px;
+        font-size:9px;
       }
       .btn-search{
-        width: 50px;
+        width: 40px;
         padding: 5px;
-        font-size: 8px;
+        font-size:8px;
         height: 24px;
+        margin-right: 5px;
       }
 
       .lower-right{
-        font-size: 7px;
-        flex:4;
-        display: flex;
-        justify-content: left;
-        height: 30px;
+        display: none;
       }
       .lower-left{
-        font-size: 7px;
+        font-size: 10px;
         display: flex;
-        flex:18;
-        justify-content: left;
+        justify-content:center;
         align-items: center;
-        height: 30px;
       }
        
       .categories{
-        font-size: 5px;
-        padding: 1px;
-        height: 15px;
-        width: 100%;
-        color: white ;
-        overflow: visible;
-        appearance: none;
-        -webkit-appearance: none;
-        text-indent: 1px;
-        border-radius: 8px;
+        display: none;
       }
       .main-menu{
         display: flex;
-        height: 35px;
+        height: 25px;
         color: grey;
         justify-content:space-between;
         align-items: center;
-        font-size: 8px;
-        margin-top: -5px;
-        width: 410px;
-        margin-left: -160px;
+        font-size:11px;
+        margin-top: 0px;
+        width: 580px;
+        margin-left: -210px;
       }
       .menu-btn-main:active{
         color: green;
@@ -145,9 +132,7 @@
       }
      
       .categories option{
-        color: #00B207;
-        font-size: 5px;
-        background: white;
+        display: none;
       }
      
       .hamburger-menu-icon{
@@ -159,39 +144,49 @@
       }
       .menu-btn-main{
         width:175px !important;
-        height: 25px;
       }
       .bg-image{
         min-width: 70vw;
-        max-width: 65vw;
-        min-height: 20vh;
+        max-width: 85vw;
+        min-height: 30vh;
         max-height: 40vh;
       }
       .content-bg{
-        height: 20vh;
-        width: 100%;
+        height: 25vh;
+        width: 80%;
         display: flex;
         flex-direction: column;
+        margin-left: -25px;
+      }
+      .bgt{
+        display: none;
       }
       .title-bg{
         color: rgb(73, 73, 73);
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
-        font-size: x-small;
-        line-height: 10px;
+        font-size: 12px;
+        line-height: 25px;
+        width: 130px;
+        text-align: center;
+        margin-left: -15px;
+        margin-bottom: -7px;
+        display: none;
       }
       .sub-title{
-        font-size: x-small;
-        font-weight: 700;
+        font-size: small;
+        font-weight: 900;
+        text-align: center;
+        display: none;
       }
       .btn-bg-image-shop-now{
         background: #00B207;
         color: white;
-        padding: 3px 3px;
+        padding: 4px 5px;
         border-radius: 22px;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        font-size: 5px;
+        font-size: 10px;
       }
       .carousel-indicators [data-bs-target] {
         width: 10px !important;
@@ -200,9 +195,14 @@
         background: green !important;
         border-radius: 10px;
       }
+      .bggg{
+        justify-content: center;
+        font-size:large;
+        width: auto;
+      }
       .productSmall{
-        width: 55vw;
-        height: 50vh;
+        width: 80vw;
+        height:auto;
         box-shadow: 5px 5px 15px 5px grey;
         flex: 1;
         box-sizing: border-box;
@@ -211,15 +211,15 @@
         justify-content: center;
         align-items: center;
         border-radius: 12px;
-        margin: 3px;
-        font-size: x-small;
+        margin: 18px;
+        font-size: small;
         padding: 2px;
         padding-top: 0;
       }
       
       .productImage{
         width: fit-content;
-        height: 180px;
+        height: 190px;
         margin: 0;
         padding: 0;
       }
@@ -238,6 +238,51 @@
         display: flex;
         width: auto;
         justify-content: space-between;
+      }
+
+
+      .footer-bottom{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        padding: 3px;
+        background: #002603;
+      }
+      .center-footer{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        background: #002603;
+        color: white;
+      }
+      footer h3, h2{
+        color: white;
+        font-size: x-small;
+        display: flex;
+        width: 180px;
+        margin: 5px;
+        text-align: center;
+      }
+      footer ul li{
+        font-size: 7px;
+        margin: auto;
+      }
+      footer pre{
+        font-size: 7px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      .contactInfo{
+        font-size: xx-small;
+        display: none;
+      }
+      .rightt, .leftt{
+        display: none;
+      }
+      .icons-footer{
+        display: none;
       }
   }
 

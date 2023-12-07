@@ -1,5 +1,4 @@
 
-@import 'bootstrap/dist/css/bootstrap.min.css';
 *{
   margin: 0;
   padding: 0;
@@ -153,6 +152,9 @@ input[type="search"]::-webkit-search-cancel-button {
   padding: 5px 5px;
   width: 250px;
 
+}
+.sub-title{
+  font-size: x-large;
 }
 .hamburger-menu-icon{
   width: 30px;
@@ -334,4 +336,33 @@ width: 95vw;
   padding: 7px;
   width: auto;
   border-radius: 12px;
+}
+.footer-bottom{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 3px;
+  background: #002603;
+}
+.center-footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  background: #002603;
+  color: white;
+}
+footer h3, h2{
+  color: white;
+  font-size: large;
+  display: flex;
+  width: 180px;
+  margin: 15px;
+  text-align: center;
+}
+footer ul li{
+  font-size: small;
+}
+footer pre{
+  font-size: smaller;
 }

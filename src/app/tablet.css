@@ -53,7 +53,7 @@
       .right{
         display: flex;
         flex:1;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: center;
         color: #B3B3B3;
        
@@ -62,8 +62,8 @@
         width: 10px;
       }
       .brand-logo{
-        width: 80px;
-        height: 20px;
+        width: 180px;
+        height: 35px;
         margin: auto 5px;
       }
       .middle-left{
@@ -92,15 +92,15 @@
         flex: 1;
       }
       .search-input{
-        width: 220px;
-        height: 15px;
-        font-size: 10px;
+        width: 420px;
+        height: 32px;
+        font-size: 12px;
       }
       .btn-search{
-        width: 50px;
+        width: 80px;
         padding: 5px;
-        font-size:8px;
-        height: 24px;
+        font-size:10px;
+        height: 32px;
       }
 
       .lower-right{
@@ -108,8 +108,13 @@
         flex: 5;
       }
       .lower-left{
-        font-size: 12px;
+        font-size: 14px;
         flex: 13;
+      }
+      .bggg{
+        justify-content: center;
+        font-size:xx-large;
+        width: auto;
       }
       .categories-menu{
         /* background: #00B207; */
@@ -160,16 +165,24 @@
       }
 
       .content-bg{
-        height: 30vh;
-        width: 100%;
+        height: 25vh;
+        width: 80%;
         display: flex;
         flex-direction: column;
+        margin-left: -25px;
       }
       .title-bg{
         color: rgb(73, 73, 73);
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
         font-size: large;
-        line-height: 20px;
+        line-height: 25px;
+        width: 250px;
+        text-align: center;
+        margin-left: -15px;
+        margin-bottom: -7px;
+      }
+      .bgt{
+        display: none;
       }
       .sub-title{
         font-size: x-large;
@@ -186,8 +199,8 @@
         font-size: small;
       }
       .bg-image{
-        min-height: 35vh;
-        max-height: 65vh;
+        min-height: 65vh;
+        max-height: 75vh;
 
         max-width: 85vw;
         min-width: 65vw;
@@ -207,7 +220,8 @@
       }
       .productSmall{
         width: 30vw;
-        height: 73vh;
+        min-height: 60vh;
+        height: auto;
         box-shadow: 5px 5px 15px 5px grey;
         flex: 1;
         box-sizing: border-box;
@@ -217,14 +231,14 @@
         align-items: center;
         border-radius: 12px;
         margin: 14px;
-        font-size: x-small;
+        font-size: large;
         padding: 2px;
         padding-top: 0;
       }
       
       .productImage{
         width: auto;
-        height: 200px;
+        height: auto;
         margin: 0;
         padding: 0;
       }
