@@ -251,6 +251,7 @@ width: 95vw;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-left: 200px;
 }
 .title-bg{
   color: rgb(73, 73, 73);
