@@ -9,10 +9,13 @@ const  ProductSmall = ({initialValue,title, description, img_url, category, pric
         const [rating, setRating] = useState(initialValue);
         const [available, setAvailable] = useState({display:'none'});
         const [stockAv, setStockAv] = useState('');
+
+        
         const handleStarClick = (clickedIndex) => {
           setRating(clickedIndex + 1);
         };
-
+        
+  useEffect(() => {
         const availableProduct = ()=>{
           if(stock===true){
              setAvailable({display:"none"});
@@ -22,7 +25,6 @@ const  ProductSmall = ({initialValue,title, description, img_url, category, pric
             setAvailable({display:'block'})
           }
         }
-      useEffect(() => {
 
         availableProduct();
       }, []);

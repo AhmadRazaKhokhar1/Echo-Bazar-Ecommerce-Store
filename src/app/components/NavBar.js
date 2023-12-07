@@ -69,7 +69,12 @@ const NavBar = () => {
 
         <div className="categories-menu">
             <div className="dropdown-container">
-        <Image src='/images/menu-hamburger-icon.svg' height={20} width={20} alt='menu-hamburger-icon-ahmad-raza-khokhar-echo-bazar-categories-all' className='hamburger-menu-icon'/>
+        <Image 
+        src='/images/menu-hamburger-icon.svg' 
+        height={20} width={20} 
+        alt='menu-hamburger-icon-ahmad-raza-khokhar-echo-bazar-categories-all' 
+        className='hamburger-menu-icon'
+        />
          <select name="categories" id="categories" className="categories" >
            <option value="All Categories" >All Categories</option>
            <option value="Fruits" className='op'>Fruits</option>
