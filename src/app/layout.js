@@ -12,8 +12,8 @@ import Footer from './components/Footer';
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Ahmad Raza Khokhar Eco Bazar',
-  description: 'Ahmad Raza Khokhar MERN Stack Developer and Also WordPress Developer with knowledge of multiple programming languages Echo Bazar echo-bazar organic-store organic store',
+  title: 'saeed Ahmad Bloach',
+  description: 'Saeed Ahmad Bloach MERN Stack Developer and Also WordPress Developer with knowledge of multiple programming languages Echo Bazar echo-bazar organic-store organic store',
 }
 
 
