@@ -1,4 +1,4 @@
-
+import { cart } from '../../../sample';
 import Image from '../../../../node_modules/next/image';
 import { useContext, createContext, useEffect, useState } from 'react';
 
@@ -14,6 +14,13 @@ const  ProductSmall = ({initialValue,title, description, img_url, category, pric
         const handleStarClick = (clickedIndex) => {
           setRating(clickedIndex + 1);
         };
+        let a=1;
+        function AddtoCart(){
+          
+          cart.push(1)
+          console.log(cart.length)
+        }
+
         
   useEffect(() => {
         const availableProduct = ()=>{
@@ -82,6 +89,7 @@ return wordCount.join(' ');
             alt='Product add to cart product-add-to-cart' 
             onMouseOver={hoverCart} 
             onMouseOut={blurCart}
+            onClick={AddtoCart}
             />
         </div>
         </div> 

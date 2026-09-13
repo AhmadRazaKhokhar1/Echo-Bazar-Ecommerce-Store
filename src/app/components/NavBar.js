@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
+import { cart } from '../../sample';
 const NavBar = () => {
   return (
     <div>
@@ -30,7 +31,7 @@ const NavBar = () => {
                 src='/images/profile-pic.svg' alt='profile-pic-ahmad-raza-khokhar' 
                 width={20} height={20}  className='profile-pic'
                 />
-                <span className="log-name">Ahmad Raza Khokhar</span>
+                <span className="log-name">Saeed Ahmad Bloach</span>
             </div>
         </div>
      </div>
@@ -39,7 +40,7 @@ const NavBar = () => {
      <div className="middleContainer">
         
         <div className="middle-left">
-            <Image className='brand-logo' alt='brand-logo echo-bazar ahmad-raza-khokhar' src='/images/echo-bazar-logo.png' width={167.5} height={37.5} />
+            <Image className='brand-logo' alt='brand-logo echo-bazar Saeed Ahmad Bloach' src='/images/echo-bazar-logo.png' width={167.5} height={37.5} />
         </div>
         <div className="middle-middle">
           <input type='search' className='search-input' placeholder='Search'/>
@@ -51,9 +52,10 @@ const NavBar = () => {
             src='/images/add-to-cart-icon.png'
             width={25}
             height={30}
-            alt='add-to-cart-icon-ahmad-raza-khokhar-echo-bazar'
+            alt='add-to-cart-icon-Saeed Ahmad Bloach-echo-bazar'
             className='shopping-cart-icon'
-            />
+            /> 
+            <span className="count">{cart.length}</span>
             <div id = 'cartCount'>
             </div>
             <div className="bar">
@@ -86,14 +88,19 @@ const NavBar = () => {
             </div>
             </div>
          <ul className="main-menu">
+           <Link className='link' href='/'>    
             <li className="menu-btn-main">
-           <Link className='link' href='/'>Home</Link>     
+                Home
                 <hr className="gr"/>
             </li>
+            </Link> 
+            <Link className='link' href='/hot'>
+
             <li className="menu-btn-main">
                Hot Deals
                 <hr className="gr"/>
             </li>
+            </Link>
             <li className="menu-btn-main">
                 Featured
                 <hr className="gr"/>

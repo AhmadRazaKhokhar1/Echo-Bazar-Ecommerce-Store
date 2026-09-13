@@ -38,7 +38,7 @@ const Footer = ()=>{
                    &nbsp;
 
                     <strong  className="contactInfo">
-                      ahmadrazawebexpert@gmail.com
+                      ssaeedahmad767@gmail.com
                     </strong>
                 </div>
             </div>
@@ -119,7 +119,7 @@ const Footer = ()=>{
                 <div className="d-flex text-white">
                     <span>
                         <b>
-                        Ahmad Raza Khokhar © 2024. All Rights Reserved
+                        Saeed Ahmad Bloach © 2024. All Rights Reserved
                         </b>
                     </span>
                 </div>
@@ -128,21 +128,21 @@ const Footer = ()=>{
                     src='/images/discover-pay.png'
                     width={25}
                     height={25}
-                    alt="social media icons echo bazar ahmad raza khokhar"
+                    alt="social media icons echo bazar Saeed Ahmad Bloach"
                     className="icons-footer"
                     />
                     <Image
                     src='/images/apple-pay.png'
                     width={25}
                     height={25}
-                    alt="social media icons echo bazar ahmad raza khokhar"
+                    alt="social media icons echo bazar Saeed Ahmad Bloach"
                     className="icons-footer"
                     />
                     <Image
                     src='/images/visa-pay.png'
                     width={25}
                     height={25}
-                    alt="social media icons echo bazar ahmad raza khokhar"
+                    alt="social media icons echo bazar Saeed Ahmad Bloach"
                     className="icons-footer"
                     />
                     <Image
